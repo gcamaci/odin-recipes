@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+html{
+    background-image: url("./images/cuttingboard.jpg");
+    background-size: cover;
+}
+
+ /*div container where everything is stored*/   
+#container1{
+    border: solid;
+    border-radius: 25px; 
+    border-color:white;
+    width: 900px;
+    margin: 150px auto; /* sets the top and bottom margin, and sets right and left to auto, centers div*/
+    background-color:beige;
+    text-align: center;
+    
+}
+#container1 h1{
+    margin-top: 20px;
+}
+.logo{
+    margin: 25px;/*space between img and h1 tag*/
+    
+}
+/*list items are inline and margins set for all sides*/
+#nav li{
+    display: inline;
+    margin: 50px 50px;
+}
+#nav li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    opacity: 2;
+    /*
+    border: solid;
+    border-color: red;
+    padding: 50px;*/
+}
+.button{
+    background-color:rgba(237, 188, 129, 0.844);
+    
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
