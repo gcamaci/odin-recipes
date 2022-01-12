@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    
+}
+h1{
+    text-align: center;
+}
+#container{
+    border: solid;  
+}
+#arancini{
+    display: block;
+    margin: auto;
+
+}
+.content{
+    text-align: center;
+    border: solid;
+    border-color: red;
+}
+/*.listContainer{
+
+}*/
+.list li{
+    margin-bottom: 20px;
+}
+
+
+
+
