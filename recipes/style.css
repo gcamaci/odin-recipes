@@ -21,7 +21,6 @@ hr{
     border: solid white;
     border-radius: 15px;
     background-color: wheat;
-    float: left; 
     margin: 25px;
     width: 30%;
 }
@@ -32,7 +31,6 @@ hr{
     border: solid white;
     border-radius: 15px;
     background-color: wheat;
-    display: inline-block;
     margin: 25px;
     width:40%;
     
@@ -55,6 +53,7 @@ ol li{
     background-color: wheat; 
     border: solid white;
     border-radius: 15px;
+    
 }
 #description img{
     max-width: 100%;
