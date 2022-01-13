@@ -1,30 +1,92 @@
-*{
-    margin:0;
-    
+
+body{
+    background-color: wheat;
+    margin: 50px;
+
 }
-h1{
-    text-align: center;
+hr{
+    border-color: black;
 }
 #container{
-    border: solid;  
-}
-#arancini{
-    display: block;
-    margin: auto;
-
-}
-.content{
-    text-align: center;
     border: solid;
-    border-color: red;
+   
+    
 }
-/*.listContainer{
+#top{
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border: solid white;
+    background-color:rgb(237, 162, 50);
+    
 
-}*/
-.list li{
-    margin-bottom: 20px;
+}
+#topRight{
+    
+    
+    
+}
+#masterContainer{
+    border: solid white;
+    padding:20px;
+    background-color:rgb(237, 162, 50);
+}
+.listContainer{
+    border-color:white;
+    float:left;  
 }
 
 
+.listContainer h2{
+    text-align: center;
+    padding-bottom: 10px;
+    color:black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.list{
+    background-color:wheat;
+    padding: 30px;
+    border: solid white;
+  
+}
 
+ul li{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.stepsContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    
+}
+.stepsList{
+    background-color: wheat;
+    padding-bottom: 30px;
+    margin: 0px  auto;
+    border: solid white;
+    
+}
 
+.stepsList ol li{
+   padding: 25px;
+   font-family: sans-serif;
+   
+}
+#buttons{
+    text-align: center;
+}
+.button{
+    background-color:rgb(237, 162, 50);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px auto;
+    
+    
+}
