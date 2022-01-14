@@ -34,6 +34,7 @@ hr{
     background-color: wheat;
     border-radius: 25px;
     align-self: center;
+    box-shadow: 5px 10px 8px 10px #f05e1b;
     
 }
 #inline{

@@ -8,17 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container1">
-        <h1>Sicilian Recipes</h1>
-        <!--add div around image-->
-        <img src="./images/Sicily.png" class="logo" height="250px" width="250px">
-        <!--add div around nav-->
-        <ul id="nav">
-            <li><button class="button"><a href="./recipes/arancini.html">Arancini</a></button></li>
-            <li><button class="button"><a href="./recipes/panzeroti.html">Panzerotti</a></button></li>
-            <li><button class="button"><a href="./recipes/panelli.html">Panelli</a></button></li>
-        </ul>
-    </div>
-
+   <div id="flex-container">
+       <div class="col">
+           <h2>Arancini</h2>
+           <hr>
+           <img src="/images/arancini4.jpeg" alt="Aranciini">
+           <a href="/recipes/arancini.html"><button class="button">Arancini</button></a>
+       </div>
+       <div class="col">
+           <h2>Panzerotti</h2>
+           <hr>
+           <img src="/images/panzerotti.png" alt="panzerotti">
+           <a href="/recipes/panzeroti.html"><button class="button">Panzerotti</button></a>
+       </div>
+       <div class="col">
+           <h2>Panelle</h2>
+           <hr>
+           <img src="/images/panelle.jpeg" alt="panelle">
+           <a href="/recipes/panelli.html"><button class="button">Panelle</button></a>
+       </div>
+   </div>
 </body>
 </html>
